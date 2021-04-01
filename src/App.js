@@ -25,7 +25,6 @@ const App = () => (
             <Redirect
               to={{
                 pathname: "/show/6771",
-                // show the powerpuff girl show by default
               }}
             />
           </Route>
