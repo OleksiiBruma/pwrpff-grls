@@ -14,7 +14,7 @@ import Container from "Components/Container";
 import ScrollToTop from "./Components/ScrollToTop";
 
 const App = () => (
-  <Router>
+  <Router basename="pwrpff-grls">
     <ScrollToTop />
     <AppWrapper>
       <Header />
