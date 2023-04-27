@@ -11,9 +11,11 @@ import ShowPage from "Components/ShowPage";
 import EpisodePage from "Components/EpisodePage";
 import AppWrapper from "Components/AppWrapper";
 import Container from "Components/Container";
+import ScrollToTop from "./Components/ScrollToTop";
 
 const App = () => (
   <Router>
+    <ScrollToTop />
     <AppWrapper>
       <Header />
       <ToastContainer />
